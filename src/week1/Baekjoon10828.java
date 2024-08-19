@@ -44,7 +44,7 @@ public class Baekjoon10828 {
 
     // static 으로 작성해야 인식가능
     public static void push(int value){
-        if (top >= size){
+        if (top >= size - 1){
             throw new StackOverflowError();
         }
         stack[++top] = value;
