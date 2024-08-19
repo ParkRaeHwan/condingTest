@@ -4,15 +4,15 @@ import java.util.EmptyStackException;
 
 public class Stack<T> {
 
-    private int top; // 스택의 최상단을 가르키는 포인터
+    private int top; // 스택의 최상단을 가르키는 포인터 (마지막으로 삽입된 데이터 위치)
     private int maxSize; // 스택의 크기
     private T[] stackArray; // 스택 구현 배열
 
     public Stack(int size) {
         this.maxSize = size;
         this.stackArray = (T[]) new Object[size];
-        // -1 부터 구현한 이유 = 배열은 선언시 0 ~ size - 1 까지 생성되기때문
-        this.top = -1; // -1 = 스택이 비워져있는 상태
+        // top값이 -1로 초기화한 이유 : 배열은 선언시 0 ~ size - 1 까지 생성되기때문
+        this.top = -1; // -1 = 스택이 비워져있는 상태 (초기화)
     }
 
     // 삽입 연산
@@ -21,7 +21,7 @@ public class Stack<T> {
         if(isFull()){
             throw new StackOverflowError("Stack is Full");
         }
-        // top 증가후 조회
+        // top 증가후 삽입
         stackArray[++top] = value;
     }
 
