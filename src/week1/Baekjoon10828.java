@@ -15,8 +15,9 @@ public class Baekjoon10828 {
         stack = new int[size];
 
         for (int i = 0; i < size; i++){
+            // next() 메서드를 통해 단어 단위로 데이터를 입력
             String str = sc.next();
-
+            // switch 문을 이용해 입력 처리
             switch (str){
                 case "push":
                     push(sc.nextInt());
@@ -43,6 +44,7 @@ public class Baekjoon10828 {
     }
 
     // static 으로 작성해야 인식가능
+    // 기존 stack 자료구조의 기능들을 요구사항에 맞게 수정 (기본 틀은 동일)
     public static void push(int value){
         if (top >= size - 1){
             throw new StackOverflowError();
