@@ -3,6 +3,7 @@ package week1;
 import java.util.LinkedList;
 import java.util.Queue;
 
+// 1-3 문제
 public class Programmers {
 
     public static void main(String[] args) {
@@ -15,13 +16,15 @@ public class Programmers {
         int bridge_weight = 0;
         Queue<Integer> trucks = new LinkedList<>();
         Queue<Integer> bridge_trucks = new LinkedList<>();
+        // 이동거리 확인 데이터
         Queue<Integer> truck_time = new LinkedList<>();
-        for(int target : truck_weights){
-            trucks.add(target);
+
+        for(int truck: truck_weights){
+            trucks.add(truck);
         }
 
         while (!trucks.isEmpty()){
-            // 다리위의 트럭의 이동거리 계산 (이동거리 이동후 해당 트럭 내리도록)
+            // 다리위의 트럭의 이동거리 계산 (이동거리 이동후 해당 다리에서 내리도록)
             if (!(bridge_trucks.isEmpty()) && truck_time.peek() == result){
                 // 해당 트럭 이동 시간, 트럭 무게 감소
                 truck_time.poll();
@@ -36,7 +39,7 @@ public class Programmers {
             }
             result++;
         }
-        // 마지막에 내리는 트럭 시간 추가
+        // 마지막에 내리는 트럭 시간 추가 (이동거리만큼 시간이 걸리기 때문)
         return result + bridge_length;
     }
 }
