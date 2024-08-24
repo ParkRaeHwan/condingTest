@@ -67,5 +67,6 @@ public class Queue<T> {
         System.out.println(queue.dequeue()); // return 10
         System.out.println(queue.peek()); // return 20
         System.out.println(queue.getSize()); // return 2
+
     }
 }

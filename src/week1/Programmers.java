@@ -3,7 +3,7 @@ package week1;
 import java.util.LinkedList;
 import java.util.Queue;
 
-// 1-3 문제
+// 1-3 문제 (다리를 지나는 트럭)
 public class Programmers {
 
     public static void main(String[] args) {

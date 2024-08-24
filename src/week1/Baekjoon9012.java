@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Stack;
 
-// 1-4 문제
+// 1-4 문제(괄호)
 public class Baekjoon9012 {
 
     public static void main(String[] args) throws IOException {

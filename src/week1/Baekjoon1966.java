@@ -7,6 +7,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
+// 1-5 문제(프린터 큐)
 public class Baekjoon1966 {
 
     public static void main(String[] args) throws IOException {
@@ -22,8 +23,7 @@ public class Baekjoon1966 {
             int printCount = 0;
 
             st = new StringTokenizer(br.readLine());
-            // queue 안 데이터를 배열로 입력받음
-            // 문서 중요도 입력 (초기 문서 위치, 중요도 입력)
+            // queue 안 데이터를 배열(초기 문서 위치, 중요도 입력)로 입력받음
             Queue<int []> queue = new LinkedList<>();
             for (int j = 0; j < fileCount; j++){
                 queue.add(new int[] {j, Integer.parseInt(st.nextToken())});
@@ -37,6 +37,7 @@ public class Baekjoon1966 {
 
                 // 중요도 확인
                 for (int[] file : queue) {
+                    // 중요도 낮은 경우
                     if (front[1] < file[1]){
                         queue.offer(front);
                         check = false;

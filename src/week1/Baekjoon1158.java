@@ -3,6 +3,7 @@ package week1;
 import java.util.LinkedList;
 import java.util.Scanner;
 
+// 1-2 문제 (요세푸스)
 public class Baekjoon1158 {
 
     public static void main(String[] args) {

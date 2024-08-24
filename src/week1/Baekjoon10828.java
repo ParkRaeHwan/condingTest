@@ -2,6 +2,7 @@ package week1;
 
 import java.util.Scanner;
 
+// 1-1 문제 (스택)
 public class Baekjoon10828 {
 
     private static int stack[];
