@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
+// 2-1 (80338210 추가 참고, 인접 리스트 사용한 방식)
 public class Baekjoon1260 {
 
     public static void main(String[] args) throws IOException {
@@ -68,5 +69,6 @@ public class Baekjoon1260 {
                 recursiveDfs(i, visited, nodes, numNode, sb);
             }
         }
+
     }
 }
