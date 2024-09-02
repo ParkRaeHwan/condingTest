@@ -42,7 +42,7 @@ public class BackTracking {
                 arr[depth] = i + 1;
                 dfs(n, m, depth + 1);
                 
-                // 자식 노드 방문후 돌아오면 현재 노드를 방문하지 않은상태로 변경
+                // 자식 노드 방문후 돌아오면 현재 노드를 방문하지 않은상태로 변경 (백트래킹)
                 visit[i] = false;
             }
         }
