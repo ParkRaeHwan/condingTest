@@ -23,7 +23,7 @@ public class Baekjoon1182 {
         }
 
         dfs(0, 0);
-        // 모든 수열의 원소가 없는경우(= 공집합) sum의 기본값으로 0을 넘겨줬으므로 - 1 해줌
+        // 모든 수열의 원소가 없는경우 sum의 기본값으로 0을 넘겨줬으므로 - 1 해줌
         if (s == 0){
             result--;
         }
@@ -33,7 +33,7 @@ public class Baekjoon1182 {
     }
 
     static void dfs(int depth, int sum) {
-        // 수열내 모든 원소의 여부 확인 완료시 결과 확인
+        // 수열내 모든 원소의 포함 여부 확인 완료시 결과 확인
         if (depth == n){
             if (sum == s){
                 result++;

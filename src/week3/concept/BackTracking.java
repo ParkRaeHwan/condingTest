@@ -46,6 +46,5 @@ public class BackTracking {
                 visit[i] = false;
             }
         }
-        return;
     }
 }
