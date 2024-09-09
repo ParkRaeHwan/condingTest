@@ -17,9 +17,10 @@ public class Programmers {
         Arrays.sort(times);
         long left = 0;
         // 가장 느린 심사시간
-        long right = times[times.length-1] * (long)n; 
+        long right = times[times.length-1] * (long)n;
 
         while(left <= right) {
+            // 해당 시간 (Binary Search 이용해 최대 시간 기준으로 탐색)
             long mid = (left + right) / 2;
             // 해당 시간에 수행 가능한 인원
             long complete = 0;
@@ -34,7 +35,7 @@ public class Programmers {
             // 모두 검사받았으나, 더 최솟값이 있을 수 있으므로 더 탐색 (시간 감소)
             else {
                 right = mid - 1;
-                answer = mid; 
+                answer = mid;
             }
         }
         return answer;
