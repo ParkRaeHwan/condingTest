@@ -37,7 +37,9 @@ public class Programmers {
                 right = mid - 1;
                 answer = mid;
             }
+            System.out.println(left + " " + right);
         }
+
         return answer;
     }
 
