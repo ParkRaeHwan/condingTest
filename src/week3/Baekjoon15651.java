@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-// 3-1
+// 3-1 (N과 M (3))
 public class Baekjoon15651 {
 
     static int arr[];

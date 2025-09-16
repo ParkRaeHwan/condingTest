@@ -7,7 +7,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-// 2-6
+// 2-6 (미로탐색)
 public class Baekjoon2178 {
 
     static int map[][];

@@ -8,7 +8,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-// 2-3
+// 2-3 (단지번호 붙이기)
 public class Baekjoon11724 {
 
     static int numNode;

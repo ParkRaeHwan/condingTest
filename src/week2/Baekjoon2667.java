@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
-// 2-2
+// 2-2 (연결 요소의 개수)
 public class Baekjoon2667 {
     // 지도 크기, 지도 변수
     static int size;

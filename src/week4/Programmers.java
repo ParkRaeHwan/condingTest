@@ -3,7 +3,7 @@ package week4;
 import java.io.IOException;
 import java.util.Arrays;
 
-// 4-1
+// 4-1 (프로그래머스 입국 심사)
 public class Programmers {
 
     public static void main(String[] args) throws IOException {

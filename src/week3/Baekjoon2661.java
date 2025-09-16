@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+// 2-6 (좋은 수열)
 public class Baekjoon2661 {
 
     static int N;

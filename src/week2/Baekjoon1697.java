@@ -7,7 +7,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-// 2-5
+// 2-5 (숨바꼭질)
 public class Baekjoon1697 {
 
     static int n, k;

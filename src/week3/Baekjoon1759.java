@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
+// 3-5 (암호 만들기)
 public class Baekjoon1759 {
 
     static int L, C;

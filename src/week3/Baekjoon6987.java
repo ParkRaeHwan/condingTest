@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+// 3-3 (월드컵)
 public class Baekjoon6987 {
     // 해당 결과의 승, 무, 패 기록을 저장할 배열, 결과 판별 변수 생성
     static int win[], draw[], lose[];

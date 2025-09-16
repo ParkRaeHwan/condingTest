@@ -7,7 +7,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-// 2-4
+// 2-4 (유기농 배추)
 public class Baekjoon1012 {
 
     static int result, row, col;

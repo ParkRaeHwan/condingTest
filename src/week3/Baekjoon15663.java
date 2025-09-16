@@ -3,7 +3,7 @@ package week3;
 import java.util.Arrays;
 import java.util.Scanner;
 
-// 3-2
+// 3-2 (N과 M (9))
 public class Baekjoon15663 {
 
     // 결과 배열, 입력받을 숫자 배열, 방문 확인 배열 생성

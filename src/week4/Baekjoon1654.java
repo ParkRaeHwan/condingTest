@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-// 4-2 (4-1 과 동일한 유형)
+// 4-3 (랜선 자르기, 4-1 과 동일한 유형)
 public class Baekjoon1654 {
 
     public static void main(String[] args) throws IOException {

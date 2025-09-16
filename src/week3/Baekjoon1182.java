@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+// 3-4 (부분 수열의 합)
 public class Baekjoon1182 {
 
     static int n, s, result = 0;
