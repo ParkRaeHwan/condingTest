@@ -1,3 +1,8 @@
 # Default ignored files
 /shelf/
 /workspace.xml
+
+# Java 컴파일 산출물
+*.class
+/bin/
+/out/
