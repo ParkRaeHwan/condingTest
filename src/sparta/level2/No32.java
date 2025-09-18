@@ -22,5 +22,9 @@ public class No32 {
         for (int i = 0; i < a.length; i++) {
             answer = answer + (a[i] * b[i]);
         }
+
+        // stream 이용한 계산
+        // IntStream.range(0, a.length).map(index -> a[index] * b[index]).sum();
+
         return answer;
     }}
